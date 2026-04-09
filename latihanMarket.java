@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class latihanMarket {
     public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in); 
 
         //daftar member (nama, alamat, no hp)
         String namaMember="", alamatMember="", noHPmember="";
@@ -23,6 +23,7 @@ public class latihanMarket {
             alamatMember = scanner.nextLine();
             System.out.print("No HP anda: ");
             noHPmember = scanner.nextLine();
+
     
 
 }
